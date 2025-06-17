@@ -10,11 +10,6 @@ Track attendance, monitor grades, and enable seamless communication.
 
 <br>
 
-[📺 Demo Video](https://youtu.be/ol650KwQkgY?si=rKcboqSv3n-e4UbC)  
-[🔗 LinkedIn](https://www.linkedin.com/in/prashantklp)
-
----
-
 # 📌 About
 
 **School Monitor** is a MERN-stack based web app designed to modernize and streamline school operations. Built with scalability and user experience in mind, it supports separate dashboards and functionalities for Admins, Teachers, and Students.
