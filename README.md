@@ -1,48 +1,50 @@
 <h1 align="center">
-    SCHOOL MANAGEMENT SYSTEM
+    🎓 SCHOOL MONITOR
 </h1>
 
 <h3 align="center">
-Streamline school management, class organization, and add students and faculty.<br>
-Seamlessly track attendance, assess performance, and provide feedback. <br>
-Access records, view marks, and communicate effortlessly.
+A full-stack School Management System to simplify administration, class organization, and performance tracking.<br>
+Manage students, teachers, and classes with ease.<br>
+Track attendance, monitor grades, and enable seamless communication.
 </h3>
 
 <br>
-[Youtube Video](https://youtu.be/ol650KwQkgY?si=rKcboqSv3n-e4UbC)
-<br><br>
-[LinkedIn](https://www.linkedin.com/in/yogndr/)
 
-# About
+[📺 Demo Video](https://youtu.be/ol650KwQkgY?si=rKcboqSv3n-e4UbC)  
+[🔗 LinkedIn](https://www.linkedin.com/in/prashantklp)
 
-The School Management System is a web-based application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to streamline school management, class organization, and facilitate communication between students, teachers, and administrators.
+---
 
-## Features
+# 📌 About
 
-- **User Roles:** The system supports three user roles: Admin, Teacher, and Student. Each role has specific functionalities and access levels.
+**School Monitor** is a MERN-stack based web app designed to modernize and streamline school operations. Built with scalability and user experience in mind, it supports separate dashboards and functionalities for Admins, Teachers, and Students.
 
-- **Admin Dashboard:** Administrators can add new students and teachers, create classes and subjects, manage user accounts, and oversee system settings.
+---
 
-- **Attendance Tracking:** Teachers can easily take attendance for their classes, mark students as present or absent, and generate attendance reports.
+## ✨ Features
 
-- **Performance Assessment:** Teachers can assess students' performance by providing marks and feedback. Students can view their marks and track their progress over time.
+- 🔐 **Role-Based Access:** Admin, Teacher, and Student roles with individual permissions.
+- 📊 **Performance Management:** Teachers can assess, grade, and give feedback. Students can track academic progress via charts.
+- 🧑‍🏫 **Class & User Management:** Admins can manage students, faculty, and classes.
+- 🕒 **Attendance System:** Teachers can mark and track attendance daily.
+- 📬 **Internal Communication:** Messaging system between teachers and students.
+- 📈 **Data Visualizations:** Easily monitor student grades and class performance.
 
-- **Data Visualization:** Students can visualize their performance data through interactive charts and tables, helping them understand their academic performance at a glance.
+---
 
-- **Communication:** Users can communicate effortlessly through the system. Teachers can send messages to students and vice versa, promoting effective communication and collaboration.
+## 🛠 Tech Stack
 
-## Technologies Used
+- **Frontend:** React.js, Redux, Material UI  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB
 
-- Frontend: React.js, Material UI, Redux
-- Backend: Node.js, Express.js
-- Database: MongoDB
+---
 
-<br>
+## 🚀 Installation
 
-# Installation
+```bash
+git clone https://github.com/prashantklp/school-monitor.git
 
-```sh
-git clone https://github.com/Yogndrr/MERN-School-Management-System.git
 ```
 Open 2 terminals in separate windows/tabs.
 
@@ -67,8 +69,10 @@ cd frontend
 npm install
 npm start
 ```
-Now, navigate to `localhost:3000` in your browser. 
-The Backend API will be running at `localhost:5000`.
+
+Frontend: http://localhost:3000
+Backend API: http://localhost:5050
+
 <br>
 # Error Solution
 
@@ -91,7 +95,7 @@ After completing these steps, try signing up again. If the issue persists, follo
 2. Add the following line after the import statements:
 
 ```javascript
-const REACT_APP_BASE_URL = "http://localhost:5000";
+const REACT_APP_BASE_URL = "http://localhost:5050";
 ```
 
 3. Replace all instances of `process.env.REACT_APP_BASE_URL` with `REACT_APP_BASE_URL`.
