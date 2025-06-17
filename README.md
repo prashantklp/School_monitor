@@ -38,7 +38,7 @@ Track attendance, monitor grades, and enable seamless communication.
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/prashantklp/school-monitor.git
+git clone https://github.com/prashantklp/School_monitor.git
 
 ```
 Open 2 terminals in separate windows/tabs.
